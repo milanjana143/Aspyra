@@ -1,0 +1,177 @@
+/* Global Dark Mode Styles */
+
+body.dark-theme,
+[data-bs-theme="dark"] {
+  --bs-body-bg: #0d0d0d;
+  --bs-body-color: #e0e0e0;
+  --bs-border-color: #333333;
+  --bs-emphasis-color: #ffffff;
+  --bs-secondary-bg: #1a1a1a;
+  background-color: #0d0d0d;
+  color: #e0e0e0;
+}
+
+body.dark-theme .sidebar,
+body.dark-theme .navbar,
+body.dark-theme .card,
+body.dark-theme .modal-content,
+body.dark-theme .table,
+[data-bs-theme="dark"] .sidebar,
+[data-bs-theme="dark"] .navbar,
+[data-bs-theme="dark"] .card,
+[data-bs-theme="dark"] .modal-content,
+[data-bs-theme="dark"] .table {
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+  border-color: #333333;
+}
+
+body.dark-theme .form-control,
+body.dark-theme .form-select,
+body.dark-theme input,
+body.dark-theme textarea,
+[data-bs-theme="dark"] .form-control,
+[data-bs-theme="dark"] .form-select,
+[data-bs-theme="dark"] input,
+[data-bs-theme="dark"] textarea {
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+  border-color: #333333;
+}
+
+body.dark-theme .form-control:focus,
+body.dark-theme .form-select:focus,
+body.dark-theme input:focus,
+body.dark-theme textarea:focus,
+[data-bs-theme="dark"] .form-control:focus,
+[data-bs-theme="dark"] .form-select:focus,
+[data-bs-theme="dark"] input:focus,
+[data-bs-theme="dark"] textarea:focus {
+  background-color: #2a2a2a;
+  color: #e0e0e0;
+  border-color: #4f46e5;
+}
+
+body.dark-theme .btn-primary,
+[data-bs-theme="dark"] .btn-primary {
+  background-color: #4f46e5;
+  border-color: #4f46e5;
+}
+
+body.dark-theme .btn-primary:hover,
+[data-bs-theme="dark"] .btn-primary:hover {
+  background-color: #4338ca;
+  border-color: #4338ca;
+}
+
+body.dark-theme .table thead,
+[data-bs-theme="dark"] .table thead {
+  background-color: #242424;
+  color: #e0e0e0;
+}
+
+body.dark-theme .table tbody tr,
+[data-bs-theme="dark"] .table tbody tr {
+  border-color: #333333;
+}
+
+body.dark-theme .table tbody tr:hover,
+[data-bs-theme="dark"] .table tbody tr:hover {
+  background-color: #242424;
+}
+
+body.dark-theme .badge,
+[data-bs-theme="dark"] .badge {
+  background-color: #2a2a2a;
+  color: #e0e0e0;
+}
+
+body.dark-theme .alert,
+[data-bs-theme="dark"] .alert {
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+  border-color: #333333;
+}
+
+body.dark-theme hr,
+[data-bs-theme="dark"] hr {
+  border-color: #333333;
+  opacity: 1;
+}
+
+body.dark-theme .text-muted,
+[data-bs-theme="dark"] .text-muted {
+  color: #9ca3af !important;
+}
+
+body.dark-theme .dropdown-menu,
+[data-bs-theme="dark"] .dropdown-menu {
+  background-color: #1a1a1a;
+  border-color: #333333;
+}
+
+body.dark-theme .dropdown-item,
+[data-bs-theme="dark"] .dropdown-item {
+  color: #e0e0e0;
+}
+
+body.dark-theme .dropdown-item:hover,
+body.dark-theme .dropdown-item:focus,
+[data-bs-theme="dark"] .dropdown-item:hover,
+[data-bs-theme="dark"] .dropdown-item:focus {
+  background-color: #2a2a2a;
+  color: #e0e0e0;
+}
+
+body.dark-theme .modal-header,
+[data-bs-theme="dark"] .modal-header {
+  background-color: #1a1a1a;
+  border-color: #333333;
+}
+
+body.dark-theme .modal-body,
+[data-bs-theme="dark"] .modal-body {
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+}
+
+body.dark-theme .close,
+body.dark-theme .btn-close,
+[data-bs-theme="dark"] .close,
+[data-bs-theme="dark"] .btn-close {
+  color: #e0e0e0;
+}
+
+body.dark-theme .pagination .page-link,
+[data-bs-theme="dark"] .pagination .page-link {
+  background-color: #1a1a1a;
+  border-color: #333333;
+  color: #e0e0e0;
+}
+
+body.dark-theme .pagination .page-link:hover,
+[data-bs-theme="dark"] .pagination .page-link:hover {
+  background-color: #2a2a2a;
+  color: #e0e0e0;
+}
+
+body.dark-theme .pagination .page-item.active .page-link,
+[data-bs-theme="dark"] .pagination .page-item.active .page-link {
+  background-color: #4f46e5;
+  border-color: #4f46e5;
+}
+
+/* Light Mode - Reset to Bootstrap defaults */
+body.light-theme,
+[data-bs-theme="light"] {
+  --bs-body-bg: #ffffff;
+  --bs-body-color: #212529;
+  --bs-border-color: #dee2e6;
+  --bs-emphasis-color: #000000;
+  --bs-secondary-bg: #e9ecef;
+}
+
+body.light-theme {
+  background-color: #ffffff;
+  color: #212529;
+}

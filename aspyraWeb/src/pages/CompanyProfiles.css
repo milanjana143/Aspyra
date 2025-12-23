@@ -1,0 +1,162 @@
+.company-profiles-page {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.company-card {
+  background: white;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.company-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.company-header {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.company-logo-large {
+  width: 64px;
+  height: 64px;
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.company-basic-info {
+  flex: 1;
+}
+
+.company-name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 0.25rem;
+}
+
+.company-industry {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-bottom: 0.25rem;
+}
+
+.company-location {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.company-description {
+  color: #4b5563;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  flex-grow: 1;
+}
+
+.company-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.company-tags {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.company-tag {
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.375rem;
+  font-size: 0.813rem;
+  font-weight: 600;
+  color: #4b5563;
+}
+
+.company-rating {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+}
+
+.star-icon {
+  color: #fbbf24;
+  font-size: 1.1rem;
+}
+
+.rating-value {
+  font-weight: 700;
+  color: #1f2937;
+  font-size: 1rem;
+}
+
+.open-positions {
+  margin-top: auto;
+}
+
+.positions-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 0.75rem;
+}
+
+.positions-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.positions-list li {
+  padding-left: 0;
+}
+
+.position-link {
+  color: #4f46e5;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.2s;
+}
+
+.position-link:hover {
+  color: #4338ca;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .company-card {
+    padding: 1rem;
+  }
+
+  .company-header {
+    flex-direction: column;
+  }
+
+  .company-logo-large {
+    width: 56px;
+    height: 56px;
+  }
+}
