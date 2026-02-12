@@ -1,5 +1,5 @@
 # Aspyra - Online Job Portal
-Using MERN Stack. Contributors - 
+Using MERN Stack. Developers - 
 <br>
 Sagar Chakraborty https://github.com/sagar-chakraborty21
 <br>
